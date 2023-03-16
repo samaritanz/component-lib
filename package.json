@@ -1,7 +1,10 @@
 {
-  "name": "component-lib",
+  "name": "@samaritanz/component-lib",
   "version": "0.0.1",
-  "description": "component-lib",
+  "description": "@samaritanz/component-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@samaritanz"
+  },
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
